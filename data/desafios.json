@@ -1,0 +1,348 @@
+[
+  {
+    "id": "python-basico",
+    "tecnologia": "Python",
+    "nivel": "Básico",
+    "titulo": "Resumo de uma expedição",
+    "descricao": "Utilizando Python, processe uma lista de distâncias e informe a soma e a quantidade de etapas.",
+    "requisitos": [
+      "Aceitar uma lista de números não negativos.",
+      "Retornar soma e quantidade.",
+      "Tratar a lista vazia."
+    ],
+    "dicas": [
+      "Separe o cálculo da apresentação.",
+      "Escreva um teste para a lista vazia."
+    ],
+    "entrada": "[2, 3, 5]",
+    "saida": "{\"total\":10,\"etapas\":3}",
+    "xp": 100
+  },
+  {
+    "id": "python-intermediario",
+    "tecnologia": "Python",
+    "nivel": "Intermediário",
+    "titulo": "Catálogo de pontos de interesse",
+    "descricao": "Utilizando Python, filtre um catálogo de pontos pela categoria e ordene os resultados pelo nome.",
+    "requisitos": [
+      "Filtrar pela categoria ignorando maiúsculas.",
+      "Ordenar os nomes alfabeticamente.",
+      "Não modificar a coleção original."
+    ],
+    "dicas": [
+      "Normalize o termo de pesquisa.",
+      "Teste uma categoria sem resultados."
+    ],
+    "entrada": "{\"categoria\":\"parque\",\"pontos\":[{\"nome\":\"Bosque\",\"categoria\":\"Parque\"}]}",
+    "saida": "[{\"nome\":\"Bosque\",\"categoria\":\"Parque\"}]",
+    "xp": 250
+  },
+  {
+    "id": "python-avancado",
+    "tecnologia": "Python",
+    "nivel": "Avançado",
+    "titulo": "Planejador de rota em grafo",
+    "descricao": "Utilizando Python, represente um mapa como grafo ponderado e encontre o menor custo entre dois pontos.",
+    "requisitos": [
+      "Aceitar apenas pesos não negativos.",
+      "Informar o caminho e seu custo.",
+      "Tratar destinos sem conexão.",
+      "Criar testes para múltiplas rotas."
+    ],
+    "dicas": [
+      "Estude o algoritmo de Dijkstra.",
+      "Separe o algoritmo da interface ou relatório."
+    ],
+    "entrada": "A-B:2, B-C:3, A-C:9; origem:A; destino:C",
+    "saida": "Caminho: A → B → C; custo: 5",
+    "xp": 400
+  },
+  {
+    "id": "javascript-basico",
+    "tecnologia": "JavaScript",
+    "nivel": "Básico",
+    "titulo": "Resumo de uma expedição",
+    "descricao": "Utilizando JavaScript, processe uma lista de distâncias e informe a soma e a quantidade de etapas.",
+    "requisitos": [
+      "Aceitar uma lista de números não negativos.",
+      "Retornar soma e quantidade.",
+      "Tratar a lista vazia."
+    ],
+    "dicas": [
+      "Separe o cálculo da apresentação.",
+      "Escreva um teste para a lista vazia."
+    ],
+    "entrada": "[2, 3, 5]",
+    "saida": "{\"total\":10,\"etapas\":3}",
+    "xp": 100
+  },
+  {
+    "id": "javascript-intermediario",
+    "tecnologia": "JavaScript",
+    "nivel": "Intermediário",
+    "titulo": "Catálogo de pontos de interesse",
+    "descricao": "Utilizando JavaScript, filtre um catálogo de pontos pela categoria e ordene os resultados pelo nome.",
+    "requisitos": [
+      "Filtrar pela categoria ignorando maiúsculas.",
+      "Ordenar os nomes alfabeticamente.",
+      "Não modificar a coleção original."
+    ],
+    "dicas": [
+      "Normalize o termo de pesquisa.",
+      "Teste uma categoria sem resultados."
+    ],
+    "entrada": "{\"categoria\":\"parque\",\"pontos\":[{\"nome\":\"Bosque\",\"categoria\":\"Parque\"}]}",
+    "saida": "[{\"nome\":\"Bosque\",\"categoria\":\"Parque\"}]",
+    "xp": 250
+  },
+  {
+    "id": "javascript-avancado",
+    "tecnologia": "JavaScript",
+    "nivel": "Avançado",
+    "titulo": "Planejador de rota em grafo",
+    "descricao": "Utilizando JavaScript, represente um mapa como grafo ponderado e encontre o menor custo entre dois pontos.",
+    "requisitos": [
+      "Aceitar apenas pesos não negativos.",
+      "Informar o caminho e seu custo.",
+      "Tratar destinos sem conexão.",
+      "Criar testes para múltiplas rotas."
+    ],
+    "dicas": [
+      "Estude o algoritmo de Dijkstra.",
+      "Separe o algoritmo da interface ou relatório."
+    ],
+    "entrada": "A-B:2, B-C:3, A-C:9; origem:A; destino:C",
+    "saida": "Caminho: A → B → C; custo: 5",
+    "xp": 400
+  },
+  {
+    "id": "typescript-basico",
+    "tecnologia": "TypeScript",
+    "nivel": "Básico",
+    "titulo": "Resumo de uma expedição",
+    "descricao": "Utilizando TypeScript, processe uma lista de distâncias e informe a soma e a quantidade de etapas.",
+    "requisitos": [
+      "Aceitar uma lista de números não negativos.",
+      "Retornar soma e quantidade.",
+      "Tratar a lista vazia."
+    ],
+    "dicas": [
+      "Separe o cálculo da apresentação.",
+      "Escreva um teste para a lista vazia."
+    ],
+    "entrada": "[2, 3, 5]",
+    "saida": "{\"total\":10,\"etapas\":3}",
+    "xp": 100
+  },
+  {
+    "id": "typescript-intermediario",
+    "tecnologia": "TypeScript",
+    "nivel": "Intermediário",
+    "titulo": "Catálogo de pontos de interesse",
+    "descricao": "Utilizando TypeScript, filtre um catálogo de pontos pela categoria e ordene os resultados pelo nome.",
+    "requisitos": [
+      "Filtrar pela categoria ignorando maiúsculas.",
+      "Ordenar os nomes alfabeticamente.",
+      "Não modificar a coleção original."
+    ],
+    "dicas": [
+      "Normalize o termo de pesquisa.",
+      "Teste uma categoria sem resultados."
+    ],
+    "entrada": "{\"categoria\":\"parque\",\"pontos\":[{\"nome\":\"Bosque\",\"categoria\":\"Parque\"}]}",
+    "saida": "[{\"nome\":\"Bosque\",\"categoria\":\"Parque\"}]",
+    "xp": 250
+  },
+  {
+    "id": "typescript-avancado",
+    "tecnologia": "TypeScript",
+    "nivel": "Avançado",
+    "titulo": "Planejador de rota em grafo",
+    "descricao": "Utilizando TypeScript, represente um mapa como grafo ponderado e encontre o menor custo entre dois pontos.",
+    "requisitos": [
+      "Aceitar apenas pesos não negativos.",
+      "Informar o caminho e seu custo.",
+      "Tratar destinos sem conexão.",
+      "Criar testes para múltiplas rotas."
+    ],
+    "dicas": [
+      "Estude o algoritmo de Dijkstra.",
+      "Separe o algoritmo da interface ou relatório."
+    ],
+    "entrada": "A-B:2, B-C:3, A-C:9; origem:A; destino:C",
+    "saida": "Caminho: A → B → C; custo: 5",
+    "xp": 400
+  },
+  {
+    "id": "react-basico",
+    "tecnologia": "React",
+    "nivel": "Básico",
+    "titulo": "Resumo de uma expedição",
+    "descricao": "Utilizando React, processe uma lista de distâncias e informe a soma e a quantidade de etapas.",
+    "requisitos": [
+      "Aceitar uma lista de números não negativos.",
+      "Retornar soma e quantidade.",
+      "Tratar a lista vazia."
+    ],
+    "dicas": [
+      "Separe o cálculo da apresentação.",
+      "Escreva um teste para a lista vazia."
+    ],
+    "entrada": "[2, 3, 5]",
+    "saida": "{\"total\":10,\"etapas\":3}",
+    "xp": 100
+  },
+  {
+    "id": "react-intermediario",
+    "tecnologia": "React",
+    "nivel": "Intermediário",
+    "titulo": "Catálogo de pontos de interesse",
+    "descricao": "Utilizando React, filtre um catálogo de pontos pela categoria e ordene os resultados pelo nome.",
+    "requisitos": [
+      "Filtrar pela categoria ignorando maiúsculas.",
+      "Ordenar os nomes alfabeticamente.",
+      "Não modificar a coleção original."
+    ],
+    "dicas": [
+      "Normalize o termo de pesquisa.",
+      "Teste uma categoria sem resultados."
+    ],
+    "entrada": "{\"categoria\":\"parque\",\"pontos\":[{\"nome\":\"Bosque\",\"categoria\":\"Parque\"}]}",
+    "saida": "[{\"nome\":\"Bosque\",\"categoria\":\"Parque\"}]",
+    "xp": 250
+  },
+  {
+    "id": "react-avancado",
+    "tecnologia": "React",
+    "nivel": "Avançado",
+    "titulo": "Planejador de rota em grafo",
+    "descricao": "Utilizando React, represente um mapa como grafo ponderado e encontre o menor custo entre dois pontos.",
+    "requisitos": [
+      "Aceitar apenas pesos não negativos.",
+      "Informar o caminho e seu custo.",
+      "Tratar destinos sem conexão.",
+      "Criar testes para múltiplas rotas."
+    ],
+    "dicas": [
+      "Estude o algoritmo de Dijkstra.",
+      "Separe o algoritmo da interface ou relatório."
+    ],
+    "entrada": "A-B:2, B-C:3, A-C:9; origem:A; destino:C",
+    "saida": "Caminho: A → B → C; custo: 5",
+    "xp": 400
+  },
+  {
+    "id": "data-science-basico",
+    "tecnologia": "Data Science",
+    "nivel": "Básico",
+    "titulo": "Resumo de uma expedição",
+    "descricao": "Utilizando Data Science, processe uma lista de distâncias e informe a soma e a quantidade de etapas.",
+    "requisitos": [
+      "Aceitar uma lista de números não negativos.",
+      "Retornar soma e quantidade.",
+      "Tratar a lista vazia."
+    ],
+    "dicas": [
+      "Separe o cálculo da apresentação.",
+      "Escreva um teste para a lista vazia."
+    ],
+    "entrada": "[2, 3, 5]",
+    "saida": "{\"total\":10,\"etapas\":3}",
+    "xp": 100
+  },
+  {
+    "id": "data-science-intermediario",
+    "tecnologia": "Data Science",
+    "nivel": "Intermediário",
+    "titulo": "Catálogo de pontos de interesse",
+    "descricao": "Utilizando Data Science, filtre um catálogo de pontos pela categoria e ordene os resultados pelo nome.",
+    "requisitos": [
+      "Filtrar pela categoria ignorando maiúsculas.",
+      "Ordenar os nomes alfabeticamente.",
+      "Não modificar a coleção original."
+    ],
+    "dicas": [
+      "Normalize o termo de pesquisa.",
+      "Teste uma categoria sem resultados."
+    ],
+    "entrada": "{\"categoria\":\"parque\",\"pontos\":[{\"nome\":\"Bosque\",\"categoria\":\"Parque\"}]}",
+    "saida": "[{\"nome\":\"Bosque\",\"categoria\":\"Parque\"}]",
+    "xp": 250
+  },
+  {
+    "id": "data-science-avancado",
+    "tecnologia": "Data Science",
+    "nivel": "Avançado",
+    "titulo": "Planejador de rota em grafo",
+    "descricao": "Utilizando Data Science, represente um mapa como grafo ponderado e encontre o menor custo entre dois pontos.",
+    "requisitos": [
+      "Aceitar apenas pesos não negativos.",
+      "Informar o caminho e seu custo.",
+      "Tratar destinos sem conexão.",
+      "Criar testes para múltiplas rotas."
+    ],
+    "dicas": [
+      "Estude o algoritmo de Dijkstra.",
+      "Separe o algoritmo da interface ou relatório."
+    ],
+    "entrada": "A-B:2, B-C:3, A-C:9; origem:A; destino:C",
+    "saida": "Caminho: A → B → C; custo: 5",
+    "xp": 400
+  },
+  {
+    "id": "geotecnologias-basico",
+    "tecnologia": "Geotecnologias",
+    "nivel": "Básico",
+    "titulo": "Validador de coordenadas",
+    "descricao": "Crie uma função que valide latitude e longitude em graus decimais.",
+    "requisitos": [
+      "Aceitar apenas números finitos.",
+      "Latitude entre -90 e 90, longitude entre -180 e 180, inclusive.",
+      "Retornar falso para entradas inválidas, sem lançar exceção."
+    ],
+    "dicas": [
+      "Teste os quatro limites e valores fora deles."
+    ],
+    "entrada": "{\"latitude\":-23.55,\"longitude\":-46.63}",
+    "saida": "true",
+    "xp": 100
+  },
+  {
+    "id": "geotecnologias-intermediario",
+    "tecnologia": "Geotecnologias",
+    "nivel": "Intermediário",
+    "titulo": "Pontos em GeoJSON",
+    "descricao": "Converta uma lista de locais em uma FeatureCollection GeoJSON.",
+    "requisitos": [
+      "Gerar uma Feature do tipo Point para cada local.",
+      "Usar a ordem [longitude, latitude].",
+      "Rejeitar coordenadas inválidas.",
+      "Lista vazia deve gerar features vazias."
+    ],
+    "dicas": [
+      "Separe a validação de coordenadas da conversão."
+    ],
+    "entrada": "[{\"nome\":\"Marco\",\"latitude\":-23.55,\"longitude\":-46.63}]",
+    "saida": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"nome\":\"Marco\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[-46.63,-23.55]}}]}",
+    "xp": 250
+  },
+  {
+    "id": "geotecnologias-avancado",
+    "tecnologia": "Geotecnologias",
+    "nivel": "Avançado",
+    "titulo": "Rota de menor distância",
+    "descricao": "Encontre o caminho de menor distância em um grafo de pontos de interesse.",
+    "requisitos": [
+      "Aceitar apenas distâncias finitas e não negativas.",
+      "Retornar o caminho e a distância total.",
+      "Retornar null para destino sem conexão.",
+      "Testar origem igual ao destino e rotas alternativas."
+    ],
+    "dicas": [
+      "Use Dijkstra com fila de prioridade."
+    ],
+    "entrada": "{\"arestas\":[[\"A\",\"B\",2],[\"B\",\"C\",3],[\"A\",\"C\",9]],\"origem\":\"A\",\"destino\":\"C\"}",
+    "saida": "{\"caminho\":[\"A\",\"B\",\"C\"],\"distancia\":5}",
+    "xp": 400
+  }
+]

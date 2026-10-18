@@ -1,0 +1,13 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+docs/certificados-emitidos/*
+!docs/certificados-emitidos/.gitkeep
+
+*.zip
+__pycache__/

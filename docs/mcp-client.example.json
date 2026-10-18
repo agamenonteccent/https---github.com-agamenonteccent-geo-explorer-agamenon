@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "geo-explorer-agamenon": {
+      "command": "node",
+      "args": [
+        "C:/CAMINHO/Geo-Explorer Agamenon/dist/mcp/server.js"
+      ],
+      "env": {
+        "GEO_CERTIFICADOS_DIR": "C:/CAMINHO/Geo-Explorer Agamenon/docs/certificados-emitidos"
+      }
+    }
+  }
+}

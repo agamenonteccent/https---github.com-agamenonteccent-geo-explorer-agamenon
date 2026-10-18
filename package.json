@@ -1,0 +1,33 @@
+{
+  "name": "geo-explorer-agamenon",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Geo-Explorer do Agamenon: trilhas fictícias, desafios e certificados via CLI e MCP.",
+  "engines": {
+    "node": "^22.14.0 || ^24.0.0 || >=26.0.0"
+  },
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "exemplo": "tsx src/cli.ts /trilha Python",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "mcp": "tsx src/mcp/server.ts",
+    "mcp:start": "node dist/mcp/server.js",
+    "check": "npm run typecheck && npm test && npm run build && npm run verify:build",
+    "verify:build": "node scripts/verificar-build.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0",
+    "vitest": "^5.0.5"
+  }
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "id": "python",
+    "tecnologia": "Python",
+    "nome": "Expedição Python",
+    "nivel": "Básico",
+    "horas": 25,
+    "modulos": [
+      {
+        "fase": 1,
+        "titulo": "Sintaxe e variáveis"
+      },
+      {
+        "fase": 2,
+        "titulo": "Coleções e funções"
+      },
+      {
+        "fase": 3,
+        "titulo": "Aplicação de terminal"
+      }
+    ],
+    "competencias": [
+      "Sintaxe e variáveis",
+      "Coleções e funções",
+      "Aplicação de terminal"
+    ]
+  },
+  {
+    "id": "javascript",
+    "tecnologia": "JavaScript",
+    "nome": "Expedição JavaScript",
+    "nivel": "Básico",
+    "horas": 30,
+    "modulos": [
+      {
+        "fase": 1,
+        "titulo": "Tipos e funções"
+      },
+      {
+        "fase": 2,
+        "titulo": "Objetos e assincronismo"
+      },
+      {
+        "fase": 3,
+        "titulo": "Aplicação com testes"
+      }
+    ],
+    "competencias": [
+      "Tipos e funções",
+      "Objetos e assincronismo",
+      "Aplicação com testes"
+    ]
+  },
+  {
+    "id": "typescript",
+    "tecnologia": "TypeScript",
+    "nome": "Expedição TypeScript",
+    "nivel": "Intermediário",
+    "horas": 28,
+    "modulos": [
+      {
+        "fase": 1,
+        "titulo": "Tipos e interfaces"
+      },
+      {
+        "fase": 2,
+        "titulo": "Generics e validação"
+      },
+      {
+        "fase": 3,
+        "titulo": "CLI tipada"
+      }
+    ],
+    "competencias": [
+      "Tipos e interfaces",
+      "Generics e validação",
+      "CLI tipada"
+    ]
+  },
+  {
+    "id": "react",
+    "tecnologia": "React",
+    "nome": "Expedição React",
+    "nivel": "Intermediário",
+    "horas": 32,
+    "modulos": [
+      {
+        "fase": 1,
+        "titulo": "Componentes e propriedades"
+      },
+      {
+        "fase": 2,
+        "titulo": "Estado e efeitos"
+      },
+      {
+        "fase": 3,
+        "titulo": "Interface acessível"
+      }
+    ],
+    "competencias": [
+      "Componentes e propriedades",
+      "Estado e efeitos",
+      "Interface acessível"
+    ]
+  },
+  {
+    "id": "data-science",
+    "tecnologia": "Data Science",
+    "nome": "Expedição Data Science",
+    "nivel": "Intermediário",
+    "horas": 35,
+    "modulos": [
+      {
+        "fase": 1,
+        "titulo": "Preparação dos dados"
+      },
+      {
+        "fase": 2,
+        "titulo": "Análise exploratória"
+      },
+      {
+        "fase": 3,
+        "titulo": "Relatório reproduzível"
+      }
+    ],
+    "competencias": [
+      "Preparação dos dados",
+      "Análise exploratória",
+      "Relatório reproduzível"
+    ]
+  },
+  {
+    "id": "geotecnologias",
+    "tecnologia": "Geotecnologias",
+    "nome": "Expedição Geo-Explorer do Agamenon",
+    "nivel": "Básico",
+    "horas": 24,
+    "modulos": [
+      {
+        "fase": 1,
+        "titulo": "Coordenadas, latitude e longitude"
+      },
+      {
+        "fase": 2,
+        "titulo": "GeoJSON e pontos de interesse"
+      },
+      {
+        "fase": 3,
+        "titulo": "Distâncias e planejamento de rotas"
+      }
+    ],
+    "competencias": [
+      "Validar coordenadas geográficas",
+      "Representar pontos em GeoJSON",
+      "Planejar rotas com testes"
+    ]
+  }
+]
