@@ -143,7 +143,7 @@ git add .
 git diff --cached
 git commit -m "Implementa Geo-Explorer do Agamenon com CLI e MCP"
 git branch -M main
-git remote add origin https://github.com/agamenonteccent/geo-explorer-agamenon
+git remote add origin [https://github.com/agamenonteccent/geo-explorer-agamenon](https://github.com/agamenonteccent/https---github.com-agamenonteccent-geo-explorer-agamenon)
 git push -u origin main
 ```
 
